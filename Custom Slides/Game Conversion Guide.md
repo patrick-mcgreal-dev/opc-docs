@@ -6,22 +6,24 @@ Previously, the finishing slideshow was composed of image files that would be sh
 
 Under the new system, a "slide" is the combination of a markdown file containing the slide's text, and an image which will be displayed on the left-hand side. The markdown files containing the slide's text exist in three folders under the `games/GAME_NAME` directory: `questions`, `answers`, and `extras`.
 
-The slide images exist in three identically named folders in the `static/images/GAME_NAME` directory. Each slide contains an `Image` tag in the header data, which tells the slideshow where to find the relevant image.
+The slide images exist in three identically named folders in the `static/images/GAME_NAME` directory. Each slide markdown file contains an `Image` tag in the header data, which tells the slideshow where to find the relevant image.
 
-Finally, a `slides.json` file is required in the `games/GAME_NAME` directory. This file determines the order in which the slides will be shown.
+Finally, a `slides.json` file is required in the `games/GAME_NAME` directory. This file determines the order in which the slides are shown.
 
 ## Create new folders
 
 In the `games` directory, locate the folder of the game to be converted. Inside this folder, create the following additional folders:
 
-1. answers
-2. extras
+1. `answers`
+2. `extras`
 
 In the `static/images` directory, locate the folder of the game to be converted. Inside this folder, create the following additional folders: 
 
-1. extras
+1. `extras`
 
-## Add content to the GAME_NAME/answers folder
+## Add answer slide content
+
+**Relevant folder:** `GAME_NAME/answers folder`
 
 In the finishing slideshow, we usually want to pair each question slide with an answer slide. This folder will contain markdown files that represent each of these answer slides.
 
@@ -51,7 +53,9 @@ The explanation of the puzzle solution goes here.
 ## The answer to the puzzle goes here
 ```
 
-## Add content to the static/images/GAME_NAME/answers folder
+## Add answer slide images
+
+**Relevant folder:** `static/images/GAME_NAME/answers`
 
 This folder is where the old slides live, and it's being repurposed as the location of the images used by the answer files we just created. These images will be displayed alongside the answer explanation text.
 
@@ -67,7 +71,9 @@ Image: GAME_NAME/answers/puzzle-1.png
 
 ...then your answer image file should be named `puzzle-1.png`.
 
-## Add content to the GAME_NAME/extras folder
+## Add extra slide content
+
+**Relevant folder:** `GAME_NAME/extras`
 
 In the finishing slideshow, we might want to insert slides other than question/answer pairs at various points. One use case might be a multi-slide buildup to the reveal of a master puzzle. This folder is where these extra slides will live.
 
@@ -104,11 +110,15 @@ This is some content.
 **This is some bold text**
 ```
 
-## Add content to the static/images/GAME_NAME/extras folder
+## Add extra slide images
+
+**Relevant folder:** `static/images/GAME_NAME/extras`
 
 This is the folder in which we'll add the images that our extra slides are pointing to. For each extra slide, make sure an image exists in this folder with the name referenced in the `Image` header tag.
 
 ## Create the slides.json file for the game
+
+**Relevant folder:** `games/GAME_NAME`
 
 All of the content for our slides has now been created, and we're just missing the file that tells the app the order in which to show them. In the `games/GAME_NAME` directory, create a file called `slides.json`.
 
