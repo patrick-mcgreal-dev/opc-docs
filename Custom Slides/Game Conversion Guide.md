@@ -91,7 +91,7 @@ For each extra slide required, create a markdown file in this folder. It's usefu
 08-masterp-3.md
 ```
 
-The header data for each markdown file in this folder requires an `Image` tag and an `Extra` tag. The `Image` tag should point to an image in the `GAME_NAME/extras` folder (we'll generate this image in the next step), and the `Extra` tag should always be set to `true`. 
+The header data for each markdown file in this folder requires an `Image` tag and an `Extra` tag. The `Image` tag should point to an image in the `static/images/GAME_NAME/extras` folder (we'll generate this image in the next step), and the `Extra` tag should always be set to `true`. 
 
 The content area of the file can contain anything, so long as it's valid markdown.
 
