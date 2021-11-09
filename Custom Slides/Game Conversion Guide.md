@@ -10,7 +10,7 @@ The slide images exist in three identically named folders in the `static/images/
 
 Finally, a `slides.json` file is required in the `games/GAME_NAME` directory. This file determines the order in which the slides are shown.
 
-## Create new folders
+## 1. Create new folders
 
 In the `games` directory, locate the folder of the game to be converted. Inside this folder, create the following additional folders:
 
@@ -21,9 +21,9 @@ In the `static/images` directory, locate the folder of the game to be converted.
 
 1. `extras`
 
-## Add answer slide content
+## 2. Add 'answer' slides content
 
-**Relevant folder:** `GAME_NAME/answers folder`
+**Relevant folder:** `GAME_NAME/answers`
 
 In the finishing slideshow, we usually want to pair each question slide with an answer slide. This folder will contain markdown files that represent each of these answer slides.
 
@@ -53,7 +53,7 @@ The explanation of the puzzle solution goes here.
 ## The answer to the puzzle goes here
 ```
 
-## Add answer slide images
+## 3. Add 'answer' slides images
 
 **Relevant folder:** `static/images/GAME_NAME/answers`
 
@@ -71,7 +71,7 @@ Image: GAME_NAME/answers/puzzle-1.png
 
 ...then your answer image file should be named `puzzle-1.png`.
 
-## Add extra slide content
+## 4. Add 'extra' slides content
 
 **Relevant folder:** `GAME_NAME/extras`
 
@@ -110,13 +110,13 @@ This is some content.
 **This is some bold text**
 ```
 
-## Add extra slide images
+## 5. Add 'extra' slides images
 
 **Relevant folder:** `static/images/GAME_NAME/extras`
 
 This is the folder in which we'll add the images that our extra slides are pointing to. For each extra slide, make sure an image exists in this folder with the name referenced in the `Image` header tag.
 
-## Create the slides.json file for the game
+## 6. Set the display order of slides
 
 **Relevant folder:** `games/GAME_NAME`
 
@@ -328,6 +328,6 @@ As an example, here's the complete `slides.json` file for "A Very Meta Christmas
 ]
 ```
 
-## Testing
+## 7. Testing
 
 Now that the game has been converted to the new format, it's a good idea to create a game session to test that the slides are all formatted correctly and being shown in the correct order.
