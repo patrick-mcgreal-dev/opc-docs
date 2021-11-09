@@ -142,7 +142,7 @@ To add a slide to the finishing slideshow, we insert an object between these squ
 
 The `"type"` tag will always be `"markdown"`, except in one special case which we'll come to later. 
 
-The `"filder"` tag refers to one of the three folders that now exist in the `games/GAME_NAME` directory: `questions`, `answers`, and `extras`.
+The `"folder"` tag refers to one of the three folders that now exist in the `games/GAME_NAME` directory: `questions`, `answers`, and `extras`.
 
 The `"file"` tag refers to the name of a markdown file that exists in the chosen folder.
 
