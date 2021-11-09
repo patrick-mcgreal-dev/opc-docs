@@ -23,7 +23,7 @@ In the `static/images` directory, locate the folder of the game to be converted.
 
 ## 2. Add 'answer' slides content
 
-**Relevant folder:** `GAME_NAME/answers`
+**Relevant folder:** `games/GAME_NAME/answers`
 
 In the finishing slideshow, we usually want to pair each question slide with an answer slide. This folder will contain markdown files that represent each of these answer slides.
 
@@ -73,7 +73,7 @@ Image: GAME_NAME/answers/puzzle-1.png
 
 ## 4. Add 'extra' slides content
 
-**Relevant folder:** `GAME_NAME/extras`
+**Relevant folder:** `games/GAME_NAME/extras`
 
 In the finishing slideshow, we might want to insert slides other than question/answer pairs at various points. One use case might be a multi-slide buildup to the reveal of a master puzzle. This folder is where these extra slides will live.
 
