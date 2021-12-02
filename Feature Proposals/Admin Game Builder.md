@@ -10,7 +10,7 @@ Think of the Custom Game Builder as a simple model. The process of customising a
 
 ## The game building process
 
-Current:
+**Current:**
 
 1. Dan creates game files in the codebase (markdown, images, slide configuration)
 2. A developer pushes the game files to the staging app
@@ -19,7 +19,7 @@ Current:
 5. Dan and Anna test the game in the production app
 6. The game is made accessible to the public
 
-Proposed:
+**Proposed:**
 
 1. Dan and/or Anna uses the Admin Game Builder to generate all game content (questions, images, slides, etc.)
 2. Dan and/or Anna use the preview function to test the game
