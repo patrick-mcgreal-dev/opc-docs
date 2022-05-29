@@ -24,10 +24,10 @@ This is hosted on Heroku along with the main app, but is only accessible to admi
 ## Tasks and time estimates
 
 1. Add additional tables to the database to store articles -- **half a day**
-2. Add a Resources page to the web app (this should include filtering and sorting functionality). -- **two days**
-3. Decide how articles should be formatted when displaying. -- **n/a if offloaded**
-4. Implement article formatting. -- **one day**
-5. Implement Directus CMS and dashboard. -- **three days**
-6. Testing and troubleshooting. -- **two days**
+2. Add a Resources page to the web app (this should include filtering and sorting functionality) -- **two days**
+3. Decide how articles should be formatted when displaying -- **n/a if offloaded**
+4. Implement article formatting -- **one day**
+5. Implement Directus CMS and dashboard -- **three days**
+6. Testing and troubleshooting -- **two days**
 
-Total time estimate: 8.5 days
+Total time estimate: **8.5 days**
